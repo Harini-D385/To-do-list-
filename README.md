@@ -24,13 +24,11 @@ Features: add/edit/delete tasks, mark complete/incomplete, filters, and localSto
 - Clear completed tasks
 - Responsive design
 
-## Optional features (not implemented)
-- Priority, due dates, categories, drag & drop ordering
-
 ## Notes
 - Local storage key: `todo.tasks.v1`
 - Tested on Chrome and Firefox
 
 ## Author
 HARINI.D
+
 
