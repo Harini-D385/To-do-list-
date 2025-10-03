@@ -32,5 +32,5 @@ Features: add/edit/delete tasks, mark complete/incomplete, filters, and localSto
 - Tested on Chrome and Firefox
 
 ## Author
-Your Name — (replace with your name)
 HARINI.D
+
