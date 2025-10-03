@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="app-header">
+      <h1>To-Do List</h1>
+      <p class="subtitle">Simple, responsive to-do app</p>
+    </header>
+
+    <section class="add-section" aria-labelledby="add-heading">
+      <h2 id="add-heading" class="sr-only">Add a new task</h2>
+      <form id="task-form" class="task-form" autocomplete="off">
+        <input id="task-input" name="task" type="text" placeholder="Add a new task..." aria-label="New task" />
+        <button type="submit" id="add-btn" class="btn">Add</button>
+      </form>
+      <div id="message" role="status" aria-live="polite" class="message"></div>
+    </section>
+
+    <section class="tasks-section" aria-labelledby="tasks-heading">
+      <h2 id="tasks-heading" class="sr-only">Tasks</h2>
+      <ul id="task-list" class="task-list"></ul>
+
+      <div class="controls">
+        <div class="left-controls">
+          <span id="task-count" class="task-count">0 tasks</span>
+        </div>
+        <div class="right-controls">
+          <button id="filter-all" class="filter-btn active">All</button>
+          <button id="filter-active" class="filter-btn">Active</button>
+          <button id="filter-completed" class="filter-btn">Completed</button>
+          <button id="clear-completed" class="btn small">Clear completed</button>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
